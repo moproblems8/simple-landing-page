@@ -3,3 +3,8 @@
     background-color: #6c8ebe;
     padding: 0;
 }
+
+* {
+    margin: 0;
+    padding: 0;
+  }
