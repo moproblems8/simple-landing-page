@@ -10,10 +10,13 @@ body { /* global body */
     font-family: 'Roboto', sans-serif;
 }
 
-nav { 
+nav {
     background-image: linear-gradient(120deg, #020102 0%, #662890 100%); /* background of the navbar */
     height: 64px; /* height of the navbar */
     width: 100%; /* width of the navbar */
+    position: fixed; /* position of the navbar */
+    top: 0; /* position of the navbar */
+    left: 0; /* position of the navbar */
 }
 
 label.logo {
