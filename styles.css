@@ -34,6 +34,7 @@ img.logo {
 ul.nav-links {
     display: flex; /* displays the navbar elements in a row */
     list-style: none; /* removes the bullet points from the navbar elements */
+    margin-top: 10px;
 }
 
 ul.nav-links a {
