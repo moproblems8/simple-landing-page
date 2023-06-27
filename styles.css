@@ -17,7 +17,7 @@ body {
 
     /* navbar */
 nav {
-    background-image: linear-gradient(120deg, #ffffff, #3b4554); /* background of the navbar */
+    background: radial-gradient(circle, rgba(255,255,255,1) 33%, #3b4554 100%);
     display: flex; /* displays the navbar elements in a row */
     justify-content: space-between; /* HORIZANTLLY aligns the navbar elements to the left and right */
     align-items: center; /* VERTICALLY aligns the navbar elements to the center */
