@@ -23,26 +23,28 @@ nav {
     align-items: center; /* VERTICALLY aligns the navbar elements to the center */
     width: 100%; /* width of the navbar */
     position: fixed; /* makes the navbar fixed */
-    height: 84px;
+    height: 60px;
 }
 
 img.logo {
-    height: 64px; /* height of the logo */
+    height: 52px; /* height of the logo */
     padding: 15px; /* padding of the logo */
 }
 
-nav ul li {
-    display: inline-block; /* displays the navbar elements in a row */
-    margin: 20px; /* margin of the navbar elements (spacing between each other) */
+ul.nav-links {
+    display: flex; /* displays the navbar elements in a row */
+    list-style: none; /* removes the bullet points from the navbar elements */
 }
 
-nav ul li a {
-    text-decoration: none;
+ul.nav-links a {
+    padding: 18px;
+    text-decoration: none; /* removes the underline from the navbar elements */
     color: #000000; /* color of the navbar elements */
-    font-size: 24px; /* size of the navbar elements */
+    font-size: 22px; /* size of the navbar elements */
 }
 
-nav ul li a:hover {
-    color: #F9FAF8; /* color of the navbar elements when hovered */
-    background-color: #000000; /* background color of the navbar elements when hovered */
+ul.nav-links a:hover {
+    color: #000000; /* color of the navbar elements when hovered */
+    background-color: #F9FAF8; /* background color of the navbar elements when hovered */
+    text-shadow: 2px 2px 1px #FDAC53;
 }
