@@ -36,6 +36,22 @@ nav ul li {
     margin: 0 20px; /* margin of the navbar elements (spacing between each other) */
 }
 
+nav ul li a {
+    color: #F9FAF8; /* color of the navbar elements */
+    font-size: 20px; /* size of the navbar elements */
+    /* text-transform: uppercase; uppercase of the navbar elements */
+    padding: 6px 13px; /* padding of the navbar elements */
+    border-radius: 10px; /* border radius of the navbar elements */
+    border: 1.5px solid #F9FAF8; /* border of the navbar elements */
+}
+
+nav ul li a:hover {
+    color: #000000; /* color of the navbar elements when hovered */
+    border-radius: 10px; /* border radius of the navbar elements */
+    transition: .3s; /* transition of the navbar elements */
+    background-color: #F9FAF8; /* background color of the navbar elements when hovered */
+}
+
 
 
 
