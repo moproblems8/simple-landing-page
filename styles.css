@@ -80,19 +80,3 @@ img.seneca {
 .content .quote a {
     text-decoration: none;
 }
-
-    /* footer */
-
-#footer {
-    display: flex; /* displays the footer elements in a row */
-    justify-content: center; /* HORIZANTLLY aligns the footer elements to the left and right */
-    align-items: center; /* VERTICALLY aligns the footer elements to the center */
-}
-
-#footer > img {
-    width: 100%;
-    object-fit: cover;
-    height: 60px;
-    position: fixed;
-    bottom: 0;
-}
