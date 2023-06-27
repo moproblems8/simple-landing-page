@@ -55,10 +55,11 @@ ul.nav-links a:hover {
 #section1 {
     background: rgb(255,255,255);
     background: radial-gradient(circle, rgba(255,255,255,1) 29%, #3b4554 100%);
-    display: flex;
-    justify-content: center;
-    align-items: center;
     height: 400px;
+}
+
+#section1 .content {
+    display: flex; /* displays the section 1 elements in a row */
 }
 
 img.seneca {
