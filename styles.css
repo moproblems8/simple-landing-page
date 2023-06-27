@@ -76,3 +76,7 @@ img.seneca {
     margin-left: 80px;
     margin-right: 80px;
 }
+
+.content .quote a {
+    text-decoration: none;
+}
