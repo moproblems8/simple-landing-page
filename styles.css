@@ -80,6 +80,7 @@ img.seneca {
 
 .content .quote a {
     text-decoration: none;
+    color: #33AFFF
 }
 
     /* section 2 */
@@ -150,4 +151,24 @@ img.seneca {
     font-size: 15px;
     color:#000000;
     text-decoration: none;
+}
+
+    /* section 3 */
+
+#section3 {
+    background: #33AFFF;
+    height: 400px;
+    display: flex; /* displays the section 3 elements in a row */
+}
+
+#section3 .content {
+    display: flex;
+    justify-content: center; /* HORIZANTLLY aligns the section 3 elements to the left and right */
+    align-items: center; /* VERTICALLY aligns the section 3 elements to the center */
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.content p {
+    font-size: 30px;
 }
