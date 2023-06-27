@@ -12,7 +12,7 @@ html {
 }
 
 body {
-    font-family: 'Sofia', cursive;
+    font-family: 'Times New Roman', cursive;
 }
 
     /* navbar */
@@ -46,7 +46,7 @@ ul.nav-links a {
 ul.nav-links a:hover {
     color: #000000; /* color of the navbar elements when hovered */
     background-color: #F9FAF8; /* background color of the navbar elements when hovered */
-    text-shadow: 2px 2px 1px #4df2c5;
+    text-shadow: 1px 1px 1px #d71b1b;
 }
 
 
@@ -60,9 +60,19 @@ ul.nav-links a:hover {
 
 #section1 .content {
     display: flex; /* displays the section 1 elements in a row */
+    justify-content: space-around; /* HORIZANTLLY aligns the section 1 elements to the left and right */
+    align-items: center; /* VERTICALLY aligns the section 1 elements to the center */
 }
 
 img.seneca {
     height: 335px;
-    margin-top: auto;
+    margin-top: 64px;
+}
+
+.content .quote {
+    font-family: 'Sofia', cursive;
+    font-size: 26px;
+    color: #000000;
+    margin-left: 80px;
+    margin-right: 80px;
 }
