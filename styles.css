@@ -1,4 +1,4 @@
-* {
+* { /* global reset */
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,9 +6,38 @@
     list-style: none;
 }
 
-body {
+body { /* global body */
     font-family: 'Roboto', sans-serif;
 }
+
+nav { 
+    background: #6c8ebe; /* fallback for old browsers */
+    height: 64px; /* height of the navbar */
+    width: 100%; /* width of the navbar */
+}
+
+label.logo {
+    color: #F9FAF8;
+    font-size: 35px; /* size of the logo */
+    line-height: 64px; /* height of the logo in respect to the navbar */
+    padding: 0 32px; /* padding of the logo */
+    font-weight: bold; /* font weight of the logo */
+}
+
+nav ul {
+    float: right; /* aligns the navbar ul elements to the right */
+    margin-right: 20px; /* margin of the navbar */
+}
+
+nav ul li {
+    font-size: 18px; /* size of the navbar elements */
+    display: inline-block; /* displays the navbar elements in a row */
+    line-height: 64px; /* height of the navbar in respect to the logo */
+    margin: 0 20px; /* margin of the navbar elements (spacing between each other) */
+}
+
+
+
 
 .section1 {
     background: none;
