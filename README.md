@@ -7,3 +7,6 @@
 
 https://freesvg.org/
 book logo -> https://freesvg.org/1440320606
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Sofia&display=swap');
+</style>
