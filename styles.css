@@ -66,7 +66,7 @@ ul.nav-links a:hover {
 
 img.seneca {
     height: 335px;
-    margin-top: 64px;
+    margin-top: 60px;
 }
 
 .content .quote {
@@ -79,4 +79,46 @@ img.seneca {
 
 .content .quote a {
     text-decoration: none;
+}
+
+    /* section 2 */
+
+#section2 {
+    background: rgb(255, 255, 255);
+    height: 400px;
+}
+
+#section2 .content {
+    display: flex; /* displays the section 2 elements in a row */
+    justify-content: space-around; /* HORIZANTLLY aligns the section 2 elements to the left and right */
+    align-items: center; /* VERTICALLY aligns the section 2 elements to the center */
+}
+
+.great {
+    display: flex; /* displays the section 2 elements in a row */
+    flex-direction: column; /* displays the section 2 elements in a column */
+    position: relative;
+}
+
+.frame {
+    height: 200px;
+    position: relative;
+    z-index: 1;
+    margin-top: 10px;
+}
+
+.pic {
+    height: 115px;
+    position: absolute;
+    top: 80px;
+    left: 60px;
+    z-index: 2;
+}
+
+.pic2 {
+    height: 115px;
+    position: absolute;
+    top: 80px;
+    left: 90px;
+    z-index: 2;
 }
