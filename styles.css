@@ -44,9 +44,9 @@ ul.nav-links a {
 }
 
 ul.nav-links a:hover {
-    color: #000000; /* color of the navbar elements when hovered */
-    background-color: #F9FAF8; /* background color of the navbar elements when hovered */
-    text-shadow: 1px 1px 1px #d71b1b;
+    color: #F9FAF8; /* color of the navbar elements when hovered */
+    background-color: #000000; /* background color of the navbar elements when hovered */
+    border-radius: 10px;
 }
 
 
