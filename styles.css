@@ -1,15 +1,21 @@
-* { /* global reset */
+*, /* this is done at the beginning of every css file often to ensure consistency over different web browsers and have full control over the layout of pages */
+*::before, /* the before and after pseudo elements are used to insert something before or after the content of an element */
+*::after
+{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    list-style: none;
 }
 
-body { /* global body */
+html {
+    background-color: #f2f2f2;
+    scroll-behavior: smooth;
+}
+
+body {
     font-family: 'Roboto', sans-serif;
 }
 
+    /* navbar */
 nav {
     background-image: linear-gradient(120deg, #020102 0%, #662890 100%); /* background of the navbar */
     height: 64px; /* height of the navbar */
@@ -47,6 +53,8 @@ nav ul li {
 }
 
 nav ul li a {
+    text-decoration: none;
+    list-style: none;
     color: #F9FAF8; /* color of the navbar elements */
     font-size: 20px; /* size of the navbar elements */
     /* text-transform: uppercase; uppercase of the navbar elements */
@@ -59,24 +67,4 @@ nav ul li a:hover {
     border-radius: 10px; /* border radius of the navbar elements */
     transition: .3s; /* transition of the navbar elements */
     background-color: #F9FAF8; /* background color of the navbar elements when hovered */
-}
-
-
-
-
-
-.section1 {
-    background: none;
-    background-color: #6c8ebe;
-    padding: 0;
-}
-
-.navbar h1 {
-    font-size: 24px;
-    color: #F9FAF8;
-}
-
-.navbar h5 {
-    font-size: 18px;
-    color: #E5E7EB;
 }
