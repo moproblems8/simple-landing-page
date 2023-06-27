@@ -20,21 +20,15 @@ nav {
     background-image: linear-gradient(120deg, #ffffff, #FDAC53); /* background of the navbar */
     height: 80px; /* height of the navbar */
     display: flex; /* displays the navbar elements in a row */
-    justify-content: space-between; /* aligns the navbar elements to the left and right */
-    align-items: center; /* aligns the navbar elements to the center */
+    justify-content: space-between; /* HORIZANTLLY aligns the navbar elements to the left and right */
+    align-items: center; /* VERTICALLY aligns the navbar elements to the center */
 }
 
 img.logo {
     height: 64px; /* height of the logo */
-    line-height: 64px; /* height of the logo in respect to the navbar */
-    padding: 0 32px; /* padding of the logo */
-    font-weight: bold; /* font weight of the logo */
+    padding: 15px; /* padding of the logo */
 }
 
-nav ul {
-    float: right; /* aligns the navbar ul elements to the right */
-    margin-right: 20px; /* margin of the navbar */
-}
 
 nav ul li {
     font-size: 18px; /* size of the navbar elements */
@@ -46,7 +40,7 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     list-style: none;
-    color: #F9FAF8; /* color of the navbar elements */
+    color: #000000; /* color of the navbar elements */
     font-size: 20px; /* size of the navbar elements */
     /* text-transform: uppercase; uppercase of the navbar elements */
     padding: 6px 13px; /* padding of the navbar elements */
@@ -54,7 +48,6 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #000000; /* color of the navbar elements when hovered */
     border-radius: 10px; /* border radius of the navbar elements */
     transition: .3s; /* transition of the navbar elements */
     background-color: #F9FAF8; /* background color of the navbar elements when hovered */
