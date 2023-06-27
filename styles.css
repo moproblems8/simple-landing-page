@@ -18,10 +18,12 @@ body {
     /* navbar */
 nav {
     background-image: linear-gradient(120deg, #ffffff, #FDAC53); /* background of the navbar */
-    height: 80px; /* height of the navbar */
     display: flex; /* displays the navbar elements in a row */
     justify-content: space-between; /* HORIZANTLLY aligns the navbar elements to the left and right */
     align-items: center; /* VERTICALLY aligns the navbar elements to the center */
+    width: 100%; /* width of the navbar */
+    position: fixed; /* makes the navbar fixed */
+    height: 84px;
 }
 
 img.logo {
@@ -29,19 +31,15 @@ img.logo {
     padding: 15px; /* padding of the logo */
 }
 
-
 nav ul li {
-    font-size: 18px; /* size of the navbar elements */
     display: inline-block; /* displays the navbar elements in a row */
-    line-height: 64px; /* height of the navbar in respect to the logo */
-    margin: 0 20px; /* margin of the navbar elements (spacing between each other) */
+    margin: 20px; /* margin of the navbar elements (spacing between each other) */
 }
 
 nav ul li a {
     text-decoration: none;
-    list-style: none;
     color: #000000; /* color of the navbar elements */
-    font-size: 20px; /* size of the navbar elements */
+    font-size: 24px; /* size of the navbar elements */
     /* text-transform: uppercase; uppercase of the navbar elements */
     padding: 6px 13px; /* padding of the navbar elements */
     border-radius: 10px; /* border radius of the navbar elements */
