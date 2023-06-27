@@ -12,7 +12,7 @@ html {
 }
 
 body {
-    font-family: 'Times New Roman', cursive;
+    font-family: 'Georgia', cursive;
 }
 
     /* navbar */
@@ -27,7 +27,7 @@ nav {
 }
 
 img.logo {
-    height: 52px; /* height of the logo */
+    height: 90px; /* height of the logo */
     padding: 15px; /* padding of the logo */
 }
 
@@ -98,6 +98,11 @@ img.seneca {
     display: flex; /* displays the section 2 elements in a row */
     flex-direction: column; /* displays the section 2 elements in a column */
     position: relative;
+    margin-top: 20px;
+}
+
+.great .text {
+    text-align: center;
 }
 
 .frame {
@@ -105,20 +110,43 @@ img.seneca {
     position: relative;
     z-index: 1;
     margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .pic {
     height: 115px;
     position: absolute;
-    top: 80px;
-    left: 60px;
+    top: 100px;
+    left: 90px;
     z-index: 2;
 }
 
 .pic2 {
     height: 115px;
     position: absolute;
-    top: 80px;
-    left: 90px;
+    top: 100px;
+    left: 80px;
     z-index: 2;
+}
+
+.pic3 {
+    height: 115px;
+    position: absolute;
+    top: 100px;
+    left: 70px;
+    z-index: 2;
+}
+
+.pic4 {
+    height: 115px;
+    position: absolute;
+    top: 100px;
+    left: 80px;
+    z-index: 2;
+}
+
+.under-pic-link {
+    font-size: 15px;
+    color:#000000;
+    text-decoration: none;
 }
